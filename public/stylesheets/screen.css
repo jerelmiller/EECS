@@ -1,0 +1,52 @@
+/* General Styles */
+html, body {
+  height: 100%;
+  background: #e3e3e3;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, sans-serif; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.trademark {
+  font-size: 0.05em; }
+
+.header {
+  height: 150px;
+  background: #1d262f; }
+  .header .header_container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+    padding-top: 20px;
+    color: #f2f2f2;
+    font-size: 1.6em; }
+    .header .header_container span.small {
+      font-size: 0.9em;
+      font-weight: 100; }
+    .header .header_container span.logo_blue {
+      color: #869dc2; }
+    .header .header_container #img_logo {
+      margin-left: 90px; }
+    .header .header_container #mines_logo {
+      text-align: right; }
+    .header .header_container ul.menu {
+      margin: 0 0 0 50px;
+      list-style-type: none;
+      font-size: 0.7em;
+      padding-top: 20px;
+      -webkit-padding-start: 0;
+      -webkit-margin-after: 0;
+      font-variant: small-caps; }
+      .header .header_container ul.menu .no_margin {
+        margin-right: 0 !important; }
+      .header .header_container ul.menu li {
+        display: inline;
+        margin-right: 80px; }
